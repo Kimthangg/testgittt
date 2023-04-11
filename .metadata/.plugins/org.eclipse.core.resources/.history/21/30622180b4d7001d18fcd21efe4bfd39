@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class OOP {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		public class sach {
+			private String ma, ten, tg;
+			private int trang,tap,gia;
+			private String loai,nxb;
+			public void NHAPSACH() {
+				System.out.println("Moi nhap cac thong tin sau: ");
+				System.out.println("Ma sach: ");
+				ma = sc.nextLine();
+				System.out.println("Ten sach: ");
+				ten = sc.nextLine();
+				System.out.println("Ten tac gia: ");
+				tg = sc.nextLine();
+				System.out.println("So trang: ");
+				trang = sc.nextInt();
+				System.out.println("Loai sach: ");
+				loai = sc.nextLine();
+				System.out.println("Nha xuat ban: ");
+				nxb = sc.nextLine();
+				System.out.println("So tap: ");
+				tap = nextInt();
+				System.out.println("Gia: ");
+				gia = nextInt();
+			}
+		}
+
+	}
+
+}
